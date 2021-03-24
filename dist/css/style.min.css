@@ -1,0 +1,118 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 13px;
+  color: #ecf2f8;
+}
+
+p {
+  opacity: 0.7;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  width: 97%;
+}
+
+span {
+  opacity: 0.5;
+  font-size: 1rem;
+}
+
+h2 {
+  font-size: 1.647rem;
+}
+
+h4 {
+  font-size: 1.1rem;
+}
+
+.section {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #ecf2f8;
+}
+
+.section-content {
+  max-width: 1200px;
+  margin: 4rem 2rem;
+}
+
+@media (min-width: 60em) {
+  .section-content {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+  }
+}
+
+.section-grid {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 2%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.section-header {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.section-header img {
+  border-radius: 50%;
+  padding-right: 1rem;
+}
+
+.section-intro {
+  margin-bottom: 1rem;
+}
+
+.section-info h4 {
+  padding: 0.2rem;
+}
+
+.daniel {
+  background-image: url(/images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: 255px top;
+  background-color: #7541c8;
+  grid-column: 1/ span 2;
+  grid-row: 1/1;
+}
+
+.jonathan {
+  background-color: #48556a;
+  grid-column: 3/ span 1;
+  grid-row: 1 / span 1;
+}
+
+.jeanette {
+  background-color: white;
+  color: #48556a;
+  grid-column: 1/ span 1;
+  grid-row: 2/ span 1;
+}
+
+.patrick {
+  background-color: #19212e;
+  grid-column: 2/ span 2;
+  grid-row: 2/ span 1;
+}
+
+.kira {
+  background-color: white;
+  color: #48556a;
+  grid-column: 4/ span 1;
+  grid-row: 1/ span 2;
+}
+/*# sourceMappingURL=style.min.css.map */

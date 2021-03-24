@@ -1,0 +1,38 @@
+.daniel{
+    background-image: url(/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: 255px top;
+    background-color: $moderate-violet;
+    grid-column: 1/ span 2;
+    grid-row: 1/1;
+    
+}
+
+
+.jonathan{
+    background-color: $very-dark-grayishBlue;
+    grid-column: 3/ span 1;
+    grid-row: 1 / span 1;
+}
+
+.jeanette{
+    background-color: $white;
+    color: $very-dark-grayishBlue;
+    grid-column: 1/ span 1;
+    grid-row: 2/ span 1;
+}
+
+.patrick{
+    background-color:$Very-dark-blackish-blue;
+    grid-column: 2/ span 2;
+    grid-row: 2/ span 1;
+}
+
+
+.kira{
+    background-color: $white;
+    color: $very-dark-grayishBlue;
+    grid-column: 4/ span 1;
+    grid-row: 1/ span 2;
+}

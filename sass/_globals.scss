@@ -32,18 +32,7 @@ h4{
     font-size: 1.1rem;
 }
 
-@mixin mobile {
-    @media (max-width:600px){
-        @content;
-    }
-}
 
-@mixin tablet {
-    
-    @media(min-width: 40em){
-        @content;
-    }
-}
 
 
 @mixin desktop{

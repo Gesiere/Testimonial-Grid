@@ -59,7 +59,7 @@ h4 {
   margin-bottom: 2rem;
   padding: 2rem;
   border-radius: 2%;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 10px rgba(10, 5, 5, 0.3);
 }
 
 .section-header {
@@ -83,7 +83,6 @@ h4 {
 .daniel {
   background-image: url(/images/bg-pattern-quotation.svg);
   background-repeat: no-repeat;
-  background-size: 150px;
   background-position: 255px top;
   background-color: #7541c8;
   grid-column: 1/ span 2;

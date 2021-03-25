@@ -4,7 +4,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
     margin: 0 auto;
     background-color: $light-grayish-blue;
     
@@ -18,12 +17,14 @@
             grid-template-columns: repeat(4,1fr);
             grid-template-rows: auto;
         }
+       
+        
     }
     &-grid{
         margin-bottom: 2rem;
         padding: 2rem;
         border-radius: 2%;
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        box-shadow: 5px 5px 10px rgba(10, 5, 5, 0.3);
     }
     &-header{
         display: flex;

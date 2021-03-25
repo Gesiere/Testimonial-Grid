@@ -13,7 +13,7 @@ body {
 
 p {
   opacity: 0.7;
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.4;
   width: 97%;
 }
@@ -30,12 +30,12 @@ span {
 }
 
 h2 {
-  font-size: 1.647rem;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 700px) {
   h2 {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -67,7 +67,7 @@ h4 {
 @media (min-width: 60em) {
   .section-content {
     display: grid;
-    grid-gap: 1em;
+    grid-gap: 2em;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
   }

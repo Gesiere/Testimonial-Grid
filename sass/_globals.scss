@@ -17,6 +17,9 @@ p{
     font-size: 1.1rem;
     line-height: 1.4;
     width: 97%;
+     @media (max-width: 700px){
+        font-size: 1rem;
+    }
 }
 span{
     // color: $light-grayish-blue;
@@ -25,13 +28,19 @@ span{
 }
 h2{
     font-size: 1.647rem;
+    @media (max-width: 700px){
+        font-size: 1.3rem;
+        
+    }
     
 }
 
 h4{
     font-size: 1.1rem;
+     @media (max-width: 700px){
+        font-size: 1rem;
+    }
 }
-
 
 
 
